@@ -2,6 +2,7 @@ import Board
 import User
 import Goal
 import Game
+import scoreboard
 B1 = Board.Board()
 B1.Display()
 B1.SetPosition('x', 0, 1)
@@ -28,14 +29,11 @@ print(G1.GetPosY())
 Game1 = Game.Game('X', 'player1', 'o')
 Game1.Play()
 
-
-
+s1=scoreboard.Scoreboard()
+s1.Display()
 
 # dodanie/zmiana plików repozytorium
 # git status
 # git add .
 # git commit -m "..."
 # git push -u origin master
-
-
-
